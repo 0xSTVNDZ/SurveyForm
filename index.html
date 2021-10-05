@@ -30,7 +30,7 @@
                 <input type="number" id="number" name="number" min="0" max="6"><br>
             </div>
 
-            <div class="form-group">
+            <div class="form-group" id="drop">
                 <label for="dropdown">Are you satisfied with who you are right now?</label>
                 <select name="dropdown" id="dropdown">
                     <option value="Yes" selected>Yes</option>
@@ -38,6 +38,35 @@
                     <option value="Somewhat">Somewhat</option>
                 </select>
             </div>
+
+            <div class="form-group">
+                <p>Do you have discipline?</p>
+                <input type="radio" id="yes" name="choice" value="yes" class="radio-input">
+                <label for="yes" class="radio-label">Yes</label>
+                <input type="radio" id="no" name="choice" value="no" class="radio-input">
+                <label for="no" class="radio-label">No</label>
+            </div>
+            
+
+            <fieldset>
+                <legend>What do you feel like you're missing?</legend>
+                <div class="check">
+                    <input type="checkbox" id="friends" name="missing" class="check-input" value="friends">
+                    <label for="friends" class="check-label">Friends</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="money" name="missing" class="check-input" value="money">
+                    <label for="money" class="check-label">Money</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="time" name="missing" class="check-input" value="time">
+                    <label for="time" class="check-label">Time</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="energy" name="missing" class="check-input" value="energy">
+                    <label for="energy" class="check-label">Energy</label>
+                </div>
+            </fieldset>
 
             <div class="submit">
                 <input type="submit" value="Sign Up" class="submit-button">
