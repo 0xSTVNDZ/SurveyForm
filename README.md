@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Survey Form
 
-<!--[Demo](https://example.com)-->
+[Demo](https://0xstvndz.github.io/SurveyForm/)
 
 ### Built With
 
