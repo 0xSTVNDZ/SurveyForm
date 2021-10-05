@@ -1,13 +1,13 @@
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Survey Form
 
-[Demo](https://example.com)
+<!--[Demo](https://example.com)-->
 
 ### Built With
 
-* []()
-* []()
-* []()
+* HTML5
+* CSS3
+* maybe some js?
 
 
 
@@ -16,35 +16,25 @@
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
-
-
 
 ### Installation
 
+git clone *repository_link* & open index.html
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Features
-- 
+- simple survey form with various kinds of inputs
 
 
 ## Project Status
-Project is: _completed_ _inprogress_ 
+Project is: _inprogress_ 
 
 
 ## Room for Improvement
-- 
+- allow for more inputs
 
 To do:
-- 
+- build the form
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -62,15 +52,10 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
+Steve - Contact me via Twitter ! [@0xSTVNDZ](https://twitter.com/0xSTVNDZ) 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* freeCodeCamp.org for another awesome challenge 
