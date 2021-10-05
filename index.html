@@ -9,27 +9,38 @@
     </head>
 
     <body>
+        <!--Title followed by a short summary of form-->
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p class="survey-description" id="description">A short survey on your life satisfaction so far.</p>
 
+        <!--Start of form, set id-->
         <form action="" class="survey-form" id="survey-form">
+            <!--Each input element will be in its own div within the form element-->
+            <!--name input-->
              <div class="form-group">
+                 <!--
+                    For simple text and number inputs, we need a label and the input type
+                    Set place holders and any constraints 
+                -->
                 <label for="name" class="name-label" id="name-label">Name</label><br>
                 <input type="text" id="name" name="user-name"
                 placeholder="Enter your name" required><br>
             </div>
-
+            
+            <!--email input-->
             <div class="form-group">
                 <label for="email" class="email-label" id="email-label">Email</label><br>
                 <input type="email" id="email" name="email" 
                 placeholder="Enter your email" required><br>
             </div>
 
+            <!--number input-->
             <div class="form-group">
                 <label for="number" class="number-label" id="number-label">How many goals are you currently pursuing? (optional)</label><br>
                 <input type="number" id="number" name="number" min="0" max="6" placeholder="0"><br>
             </div>
 
+            <!--drop down menu-->
             <div class="form-group" id="drop">
                 <label for="dropdown">Are you satisfied with who you are right now?</label>
                 <select name="dropdown" id="dropdown">
@@ -39,6 +50,7 @@
                 </select>
             </div>
 
+            <!--radio type input, only one selection-->
             <div class="form-group">
                 <p>Do you have discipline?</p>
                 <input type="radio" id="yes" name="choice" value="yes" class="radio-input">
@@ -47,7 +59,7 @@
                 <label for="no" class="radio-label">No</label>
             </div>
             
-
+            <!--checkbox field, allows for multiple selections (need same name attr)-->
             <fieldset>
                 <legend>What do you feel like you're missing?</legend>
                 <div class="check">
@@ -68,11 +80,13 @@
                 </div>
             </fieldset>
 
+            <!--textarea input-->
             <div class="form-group" id="text">
                 <label for="suggestions" class="sug-label">All suggestions to improve the form are welcome:</label>
                 <textarea name="suggestions" id="suggestions" cols="40" rows="8">You could improve ... </textarea>
             </div>
 
+            <!--submit button-->
             <div class="submit">
                 <input type="submit" value="Submit" class="submit-button" id="submit">
             </div>

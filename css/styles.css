@@ -1,3 +1,8 @@
+/*
+    Set font size, font family, font weight, color
+    set height and width of site
+    set background to be a gradient of white -> purple
+*/
 body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
@@ -16,6 +21,10 @@ label {
     margin-bottom: 8px;
 }
 
+/*
+    set title to flex container, center content horizontally
+    set width and padding of element
+*/
 h1 {
     display: flex;
     width: 92%;
@@ -24,14 +33,21 @@ h1 {
     padding: 1.5em;
 }
 
-
+/*align text to center, give top-bottom border*/
 .survey-description {
     text-align: center;
     border: 1.5em 0em;
     
 }
 
-
+/*
+    set form to be a flex container, align content to the left
+    start aligning divs from top to bottom using align-content
+    set flex wrap to wrap
+    set height and width
+    set background color, border color, style, radius
+    set left-right margin to auto to center horizontally 
+*/
 .survey-form {
     display: flex;
     justify-content: left;
@@ -48,6 +64,11 @@ h1 {
     padding: 2em;
 }
 
+/*
+    each complete input
+    set height and width
+    set padding and margins
+*/
 .form-group {
     width: 100%;
     height: 5em;
@@ -56,6 +77,10 @@ h1 {
     margin-bottom: 0px;
 }
 
+/*
+    set all labels with set width and height
+    set margin and font size
+*/
 label {
     width: 550px;
     height: 20px;
@@ -63,6 +88,11 @@ label {
     font-size: 20px;
 }
 
+/*
+    set width and height of input fields
+    set border width, type and color
+    set color of placeholder
+*/
 input {
     height: 25px;
     width: 95%;
@@ -71,39 +101,52 @@ input {
     color: lightslategray;
 }
 
+/*set custom height to dropdown div*/
 #drop {
     height: 3em;
 }
 
+/*set drop down menu border, color and background color*/
 select {
     border-color: #b300ff;
     background-color: white;
     color: black;
 }
 
+/*set size of radio buttons*/
 .radio-input {
     width: 10%;
     height: 15px;
 }
 
+/*set with of labels to take up rest of the row*/
 .radio-label {
     width: 85%;
     
 }
 
+/*set check divs heights*/
 .check {
     height: 30px;
 }
 
+/*set boxes height and width*/
 .check-input {
     width: 10%;
     height: 15px;
 }
 
+/*set label height*/
 .check-label {
     height: 25px;
 }
 
+/*
+    checkbox field
+    set hieght and width
+    set padding and margins
+    set border color and width
+*/
 fieldset {
     width: 100%;
     height: 9em;
@@ -114,6 +157,7 @@ fieldset {
     border-width: 2px;
 }
 
+/*set textarea div to custom dimensions, set margin and padding*/
 #text {
     width: 100%;
     height: 11em;
@@ -122,18 +166,24 @@ fieldset {
     margin-bottom: 0px;
 }
 
+/*set margin, width, and border color of textarea*/
 textarea {
     margin: 10px 0px;
     width: 100%;
     border-color: #b300ff;
 }
 
+/*submit div, set to flex container, center horizontally, set width*/
 .submit {
     display: flex;
     justify-content: center;
     width: 95%;
 }
 
+/*
+    submit button
+    set height and width, set font size, border properties, set colors and margins
+*/
 input.submit-button {
     height: 45px;
     width: 130px;

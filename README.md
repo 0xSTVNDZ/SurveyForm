@@ -32,8 +32,6 @@ Project is: _inprogress_
 ## Room for Improvement
 - allow for more inputs
 
-To do:
-- comment code
 
 <!-- CONTRIBUTING -->
 ## Contributing
