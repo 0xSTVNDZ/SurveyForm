@@ -34,6 +34,8 @@ h1 {
 .survey-form {
     display: flex;
     justify-content: left;
+    align-content: flex-start;
+    flex-wrap: wrap;
     max-height: 900px;
     height: 750px;
     max-width: 45%;
@@ -50,6 +52,7 @@ h1 {
     height: 5em;
     padding: 4px;
     margin: 0em 0em 1.5em 0em;
+    margin-bottom: 0px;
 }
 
 label {
@@ -65,4 +68,20 @@ input {
     border: 1px solid #b300ff;
     border-radius: 5px;
     color: lightslategray;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+input.submit-button {
+    height: 45px;
+    width: 130px;
+    font-size: 1.5em;
+    border: 2px solid #b300ff;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
 }
