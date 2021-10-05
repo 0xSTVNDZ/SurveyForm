@@ -14,15 +14,20 @@
 
         <form action="" class="survey-form" id="survey-form">
              <div class="form-group">
-                <label for="user-name" class="name-label">Name</label><br>
+                <label for="user-name" class="name-label" id="name-label">Name</label><br>
                 <input type="text" id="user-name" name="user-name"
                 value="Enter your name" required><br>
             </div>
 
             <div class="form-group">
-                <label for="email" class="email-label">Email</label><br>
+                <label for="email" class="email-label" id="email-label">Email</label><br>
                 <input type="email" id="email" name="email" 
                 value="Enter your email" required><br>
+            </div>
+
+            <div class="form-group">
+                <label for="number" class="number-label" id="number-label">How many goals are you currently pursuing? (optional)</label><br>
+                <input type="number" id="number" name="number" min="0" max="6"><br>
             </div>
 
             <div class="submit">
