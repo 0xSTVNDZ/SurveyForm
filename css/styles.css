@@ -85,3 +85,9 @@ input.submit-button {
     background-color: white;
     color: black;
 }
+
+select {
+    border-color: #b300ff;
+    background-color: white;
+    color: black;
+}
