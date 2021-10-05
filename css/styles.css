@@ -24,6 +24,7 @@ h1 {
     padding: 1.5em;
 }
 
+
 .survey-description {
     text-align: center;
     border: 1.5em 0em;
@@ -109,6 +110,8 @@ fieldset {
     padding: 4px;
     margin: 1em 0em 1.5em 0em;
     margin-bottom: 0px;
+    border-color: #b300ff;
+    border-width: 2px;
 }
 
 #text {
@@ -122,6 +125,7 @@ fieldset {
 textarea {
     margin: 10px 0px;
     width: 100%;
+    border-color: #b300ff;
 }
 
 .submit {

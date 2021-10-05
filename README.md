@@ -7,7 +7,6 @@
 
 * HTML5
 * CSS3
-* maybe some js?
 
 
 
@@ -34,7 +33,7 @@ Project is: _inprogress_
 - allow for more inputs
 
 To do:
-- build the form
+- comment code
 
 <!-- CONTRIBUTING -->
 ## Contributing
